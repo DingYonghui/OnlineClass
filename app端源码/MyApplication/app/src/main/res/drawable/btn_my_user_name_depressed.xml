@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--button_defocused.xml //实现渐变色的效果 （焦点不在button上，且未按下）-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 颜色渐变效果 -->
+    <solid android:color="@color/little_green"></solid>
+    <!-- 按钮四个角的平滑度 -->
+    <corners android:radius="3dp" />
+</shape>
+

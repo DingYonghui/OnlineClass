@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="department_category">
+        <item>互联网系</item>
+        <item>金融系</item>
+        <item>会计系</item>
+        <item>保险系</item>
+        <item>经济贸易系</item>
+        <item>工商管理系</item>
+        <item>外语系</item>
+        <item>法律系</item>
+        <item>财经传媒系</item>
+        <item>应用数学系</item>
+        <item>公共管理系</item>
+        <item>信用管理系</item>
+        <item>劳动经济与人力资源管理系</item>
+    </string-array>
+</resources>

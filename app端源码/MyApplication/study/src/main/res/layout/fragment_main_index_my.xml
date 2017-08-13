@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    android:weightSum="1"
+    tools:context="com.example.ding.study.fragment.FragmentMainIndexMy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我的"
+            android:padding="@dimen/normal_space"
+            android:textSize="@dimen/title_text_size"
+            android:background="@color/top_title_color"
+            android:gravity="center_horizontal"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:id="@+id/imv_login_background"
+        android:background="@mipmap/my_top_background">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/user_head"
+            android:gravity="center"
+            android:text="个人信息"
+            android:layout_gravity="center"
+            android:id="@+id/tv_user_information" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@mipmap/my_study_record"
+            android:drawableRight="@mipmap/arrow_right"
+            android:text="   学习记录"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_study_record" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/my_lesson_correct"
+            android:drawableRight="@mipmap/arrow_right"
+            android:text="   课程收藏"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_lessons_collection" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/my_download"
+            android:drawableRight="@mipmap/arrow_right"
+            android:text="   我的离线"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_my_download" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/my_setting_center"
+            android:drawableRight="@mipmap/arrow_right"
+            android:text="   设置中心"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_setting_center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/my_about_us"
+            android:drawableRight="@mipmap/arrow_right"
+            android:text="   关于我们"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_about_us" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/my_logout"
+            android:drawableRight="@mipmap/arrow_right"
+            android:text="   退出登录"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_logout_account" />
+    </LinearLayout>
+
+</LinearLayout>

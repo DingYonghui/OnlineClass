@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/little_light_gray"
+    android:orientation="vertical"
+    tools:context="com.example.jack.myapplication.activity.mainIndexMy.MyAboutUsActivity">
+
+
+    <FrameLayout
+        android:background="@color/light_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="13sp"
+            android:background="@drawable/middle_gray_bg_selector"
+            android:drawableLeft="@mipmap/arrow_left"
+            android:text="返回" />
+
+        <TextView
+            android:id="@+id/tv_user_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="关于"
+            android:textSize="20sp" />
+
+    </FrameLayout>
+
+
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="300dp">
+        <TextView
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="@color/red"
+            android:text="校学通"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@mipmap/app_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/green"
+            android:text="    一款真正懂你的APP"
+            android:ems="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+           android:layout_marginTop="1dp"
+           android:layout_width="match_parent"
+           android:layout_height="45dp"
+           android:background="@drawable/my_btn_bg_selector"
+           android:drawableRight="@mipmap/arrow_right"
+           android:text="检查更新"
+           android:textSize="13sp"
+           android:gravity="center_vertical"
+           android:paddingLeft="10dp"
+           android:paddingRight="15dp"
+           android:id="@+id/btn_update_version" />
+       <Button
+           android:layout_marginTop="1dp"
+           android:layout_width="match_parent"
+           android:layout_height="45dp"
+           android:background="@drawable/my_btn_bg_selector"
+           android:drawableRight="@mipmap/arrow_right"
+           android:text="软件使用许可协议"
+           android:textSize="13sp"
+           android:gravity="center_vertical"
+           android:paddingLeft="10dp"
+           android:paddingRight="15dp"
+           android:id="@+id/btn_use_permission" />
+       <Button
+           android:layout_marginTop="1dp"
+           android:layout_width="match_parent"
+           android:layout_height="45dp"
+           android:background="@drawable/my_btn_bg_selector"
+           android:drawableRight="@mipmap/arrow_right"
+           android:text="说明"
+           android:textSize="13sp"
+           android:gravity="center_vertical"
+           android:paddingLeft="10dp"
+           android:paddingRight="15dp"
+           android:id="@+id/btn_specification" />
+   </LinearLayout>
+
+</LinearLayout>

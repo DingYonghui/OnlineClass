@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">校学通</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome_guide">WelcomeGuideActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="account">账号</string>
+    <string name="password">密码</string>
+    <string name="nickname">用户名</string>
+    <string name="findPassword">找回密码</string>
+    <string name="recommend">推荐</string>
+    <string name="course">课程</string>
+    <string name="me">我的</string>
+    <string name="courseselection">课程章节</string>
+    <string name="studyandcommunication">学习交流</string>
+    <string name="courseseware">课件</string>
+    <array name="departments">
+        <item>互联网金融与信息工程系</item>
+        <item>金融系</item>
+        <item>会计系</item>
+        <item>保险系</item>
+        <item>经济贸易系</item>
+        <item>工商管理系</item>
+        <item>劳动经济与人力资源管理系</item>
+        <item>外语系</item>
+        <item>法律系</item>
+        <item>财经传媒系</item>
+        <item>应用数学系</item>
+        <item>公共管理系</item>
+        <item>信用管理系</item>
+    </array>
+    <string name="title_activity_lesson_part">LessonPartActivity</string>
+    <string name="title_activity_lesson_section">LessonSectionActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <string name="nav_desc">测试一下</string>
+    <string name="title_activity_user_complete_information">UserCompleteInformationActivity</string>
+    <string name="title_activity_regist">RegistActivity</string>
+    <string name="title_activity_user_information">UserInformationActivity</string>
+    <string name="title_activity_my_study_record">MyStudyRecordActivity</string>
+    <string name="title_activity_my_lessons_collection">MyLessonsCollectionActivity</string>
+    <string name="title_activity_my_download">MyDownloadActivity</string>
+    <string name="title_activity_my_setting_center">MySettingCenterActivity</string>
+    <string name="title_activity_my_about_us">MyAboutUsActivity</string>
+</resources>

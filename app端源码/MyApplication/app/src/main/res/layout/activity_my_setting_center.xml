@@ -1,0 +1,265 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/little_light_gray"
+    android:orientation="vertical"
+    tools:context="com.example.jack.myapplication.activity.mainIndexMy.MySettingCenterActivity">
+
+    <FrameLayout
+        android:background="@color/light_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="13sp"
+            android:background="@drawable/middle_gray_bg_selector"
+            android:drawableLeft="@mipmap/arrow_left"
+            android:text="返回" />
+
+        <TextView
+            android:id="@+id/tv_user_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="设置"
+            android:textSize="20sp" />
+
+    </FrameLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/layout_base_information_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/layout_permission_no_wifi_to_play"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/my_btn_bg_selector"
+                    android:clickable="true"
+                    android:layout_height="45dp">
+                    <TextView
+                        android:background="@color/transparent"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textSize="13sp"
+                        android:text="允许非WIFI网络播放"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"/>
+
+                    <TextView
+                        android:id="@+id/tv_sname"
+                        android:background="@color/transparent"
+                        android:layout_width="wrap_content"
+                        android:textSize="13sp"
+                        android:gravity="center_vertical"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/layout_clean_cache"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/my_btn_bg_selector"
+                    android:clickable="true"
+                    android:layout_height="45dp">
+                    <TextView
+                        android:background="@color/transparent"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textSize="13sp"
+                        android:text="清空缓存"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"/>
+
+                    <TextView
+                        android:id="@+id/tv_ssex"
+                        android:background="@color/transparent"
+                        android:layout_width="wrap_content"
+                        android:textSize="13sp"
+                        android:gravity="center_vertical"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/layout_cache_path"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/my_btn_bg_selector"
+                    android:clickable="true"
+                    android:layout_height="45dp">
+                    <TextView
+                        android:background="@color/transparent"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textSize="13sp"
+                        android:text="离线缓存路径"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"/>
+
+                    <TextView
+                        android:id="@+id/tv_sschool"
+                        android:background="@color/transparent"
+                        android:layout_width="wrap_content"
+                        android:textSize="13sp"
+                        android:gravity="center_vertical"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:text="/sdcard1"
+                        />
+
+                    <ImageView
+                        android:src="@mipmap/arrow_right"
+                        android:background="@color/transparent"
+                        android:paddingRight="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_advice_feedback"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/my_btn_bg_selector"
+                    android:clickable="true"
+                    android:layout_height="45dp">
+                    <TextView
+                        android:background="@color/transparent"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textSize="13sp"
+                        android:text="意见反馈"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"/>
+
+                    <TextView
+                        android:id="@+id/tv_sdepartment"
+                        android:background="@color/transparent"
+                        android:layout_width="wrap_content"
+                        android:textSize="13sp"
+                        android:gravity="center_vertical"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        />
+
+                    <ImageView
+                        android:src="@mipmap/arrow_right"
+                        android:background="@color/transparent"
+                        android:paddingRight="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/layout_push_notifications"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/my_btn_bg_selector"
+                    android:clickable="true"
+                    android:layout_height="45dp">
+                    <TextView
+                        android:background="@color/transparent"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textSize="13sp"
+                        android:text="推送通知"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"/>
+
+                    <TextView
+                        android:id="@+id/tv_smajor"
+                        android:background="@color/transparent"
+                        android:layout_width="wrap_content"
+                        android:textSize="13sp"
+                        android:gravity="center_vertical"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        />
+
+                    <ImageView
+                        android:src="@mipmap/arrow_right"
+                        android:background="@color/transparent"
+                        android:paddingRight="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/layout_give_grade"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/my_btn_bg_selector"
+                    android:clickable="true"
+                    android:layout_height="45dp">
+                    <TextView
+                        android:background="@color/transparent"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textSize="13sp"
+                        android:text="给我评分"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"/>
+
+                    <TextView
+                        android:id="@+id/tv_sclass"
+                        android:background="@color/transparent"
+                        android:layout_width="wrap_content"
+                        android:textSize="13sp"
+                        android:gravity="center_vertical"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:text="" />
+
+                    <ImageView
+                        android:src="@mipmap/arrow_right"
+                        android:background="@color/transparent"
+                        android:paddingRight="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

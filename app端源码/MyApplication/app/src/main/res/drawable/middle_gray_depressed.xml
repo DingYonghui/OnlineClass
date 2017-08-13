@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--button_defocused.xml //实现渐变色的效果 （焦点不在button上，且未按下）-->
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    </shape>
+

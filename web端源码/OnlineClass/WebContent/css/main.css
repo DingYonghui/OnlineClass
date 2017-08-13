@@ -1,0 +1,82 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+    background-color:#f6f5ec;
+	font-family:STheiti, Verdana, 微软雅黑, 宋体, Geneva, sans-serif;
+}
+.container {
+    position:relative;
+	width:100%;
+	margin:0 auto;
+}
+/*
+头部
+*/
+.head {
+    position:relative;
+    width:auto;
+	height:60px;
+	background-color: black ;
+}
+.logo {
+	float:left;
+}
+/*
+导航栏
+*/
+#bg {
+    position:relative;
+	float:left;
+	position:relative;
+	top:10px;
+    background-color:black;
+    padding: 6px;
+}
+#container{
+    width:500px;height:34px;
+    position:relative;
+    overflow:hidden;
+    margin:auto;
+    font-family:Microsoft YaHei,Segoe UI,Tahoma,Arial,Verdana,sans-serif;
+}
+#container li{
+    display:block;
+    float:left;
+    width:90px;
+    height:32px;
+    line-height:32px;
+    padding-right:2px;
+    line-height:32px;
+    list-style:none;}
+#container li a{
+    text-decoration:none;
+    display:block;
+    position:relative;
+    width:90px;height:32px;
+    padding-right:10px;
+    font-weight:bold;
+    text-align:left;
+}
+
+#container li a.cur span,#container li a span:hover {
+   color:#FF6666;
+}
+#container li a span{
+    display:block;
+    position:absolute;
+    left:15px;top:0;
+    font-weight:normal;
+    font-size:14px;
+    color:white;
+    -webkit-text-size-adjust:none;
+}
+#buoy{
+    position:absolute;
+    width:90px;height:2px;
+    background:#FF6666;
+    bottom:0px;
+    left:-157px;
+}
+

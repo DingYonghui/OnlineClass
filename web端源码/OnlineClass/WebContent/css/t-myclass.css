@@ -1,0 +1,142 @@
+
+.message li{
+  color:white;
+  float:right;
+  list-style:none;
+  margin-top:28px;
+  margin-right:10px;
+  font-size:14px;
+  cursor:pointer;
+}
+.pic {
+  height:240px;
+   overflow:hidden;
+   background-image:url(../image/myclass.jpg);
+}
+.pic-tip{
+    margin:0px 90px;
+    height:240px;
+}
+.pic-tip h2 {
+  font-size:32px;
+}
+/*
+路径
+*/
+.path  {
+  margin:10px 0px;
+}
+.path a {
+  color:black;
+  text-decoration:none;
+  font-size:14px;
+  font-weight:9px;
+}
+.intro {
+  margin:80px 0px;
+}
+
+.Middle {
+  height:900px;
+}
+.Middle-left {
+  float:left;
+  width:355px;
+  padding-left:25px ;
+  margin:50px 90px;
+  height:700px;
+  background-image:url(../image/myclass1.jpg);
+}
+.Middle-right {
+  float:left;
+  position:absolute;
+  right:90px;
+  margin:50px 0px;
+  height:700px;
+  width:750px;
+  background-color:#f2eada;
+}
+/*隐藏丑丑的下拉符号*/
+.select {
+  cursor:pointer;
+   float:left;
+   width:250px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #CCCCCC;
+   height: 35px;
+   -webkit-appearance: none; /*for chrome*/
+   background: url(../image/xia.png) no-repeat right ;
+  outline:none;
+}
+.sure {
+  height:34px;
+  width:70px;
+  margin:0px 15px;
+  text-align:center;
+  line-height:30px;
+  display:block;
+  background-color:black;
+  color:white;
+  float:left;
+  cursor:pointer;
+}
+
+.tree {
+  margin:80px 0px;
+}
+.parent_li {
+   margin:20px 0px;
+   width:333px;
+   list-style:none;
+   cursor:pointer;
+}
+.son_li{ 
+  padding-left:5px;
+  padding-bottom:5px;
+  border-bottom:1px solid #999999;
+  margin:10px 20px;
+   width:310px;
+  list-style:none;
+  display:none;
+  cursor:pointer;
+}
+
+.courseimg {
+  float:left;
+  margin:50px 0px 0px 50px;
+}
+.introduce {
+  float:left;
+  width:410px;
+  height:300px;
+  margin:50px 0px 40px 40px;
+}
+.book3 {
+  position:relative;
+  top:3px;
+  margin:0px 6px 0px 0px;
+}
+.word {
+  width:420px;
+  height:200px;
+  font-size:15px;
+  line-height:25px;
+
+}
+/*脚部*/   /*屏幕变小后位置移动了*/
+.footer {
+  height:100px;
+  background-color:black;
+}
+.footer-write {
+  width:650px;
+  margin:0px auto;
+}
+.footer-write p {
+   color:white;
+   padding-top:10px;
+   text-align:center;
+   line-height:20px;
+   font-size:12px;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+                            这个是课程章节的item布局
+
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="5555"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:id="@+id/tvCourseSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

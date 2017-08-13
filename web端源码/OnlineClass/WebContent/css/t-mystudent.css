@@ -1,0 +1,250 @@
+.message li{
+	color:white;
+	float:right;
+	list-style:none;
+	margin-top:25px;
+	margin-right:10px;
+	font-size:14px;
+}
+.pic {
+	height:240px;
+  overflow:hidden;
+	 background-image:url(../image/t-mystudent.jpg);
+}
+.pic-tip{
+    margin:0px 90px;
+    height:240px;
+}
+.pic-tip h2 {
+  color:white;
+  font-size:32px;
+}
+/*
+路径
+*/
+.path  {
+  margin:10px 0px;
+}
+.path a {
+  text-decoration:none;
+  color:white;
+  font-size:14px;
+  font-weight:9px;
+}
+/*介绍*/
+.intro {
+  margin:30px 0px;
+  width:600px;
+  color:white;
+}
+/*中间*/
+.Middle {
+   height:600px;
+}
+.select-box {
+	position:relative;
+	top:80px;
+  margin:0px auto;
+
+  width:200px;
+  height:350px;
+}
+
+
+
+
+/*选择框比外面的div宽大*/
+.styled-select select {
+   background: transparent;
+   width: 200px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   height: 34px;
+   -webkit-appearance: none; /*for chrome*/
+   background: url(../image/xia.png) no-repeat right ;
+  outline:none;
+}
+.styled-select select  option{
+   height: 34px;
+   width:200px;
+  font-size:20px;
+   padding:10px;
+}
+  
+
+.select {
+	   margin:40px 0px 0px 0px;
+}  
+
+
+.btn-group {
+  width:200px;
+  height:100px;
+
+}
+
+.btn-stu {
+    display: block;
+    margin:40px 0px 0px 0px;
+    width:200px;
+    color: #fff;
+    font-size: 14px;
+    background-color: black;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+     border-radius:5px;
+}
+
+.conmentbox {
+	position:absolute;
+	top:180px;
+	left:600px;
+	height:450px;
+	width:500px;
+	background-color:white;
+	border-radius:7px;
+	 background:transparent; /*背景透明*/
+}
+.box {
+	margin:auto auto;
+	width:400px;
+}
+#customers
+  {
+  position:relative;
+  top:240px;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  width:100%;
+  border-collapse:collapse;
+  }
+ table {
+  overflow:hidden;
+  border-top-left-radius:7px;
+ border-top-right-radius:7px;
+  border-collapse:collapse;
+}
+#customers td, #customers th 
+  {
+  height:30px;
+  font-size:1em;
+  border:1px solid black;
+  border:none;
+  padding:0px 0px 0px 0px;
+  }
+
+#customers th 
+  {
+  font-size:1.1em;
+  text-align:center;
+  padding-top:5px;
+  padding-bottom:4px;
+  background-color:black;
+  color:#ffffff;
+  }
+/*
+#customers tr.alt td 
+  {
+  color:#000000;
+  background-color:#EAF2D3;
+  }
+  */
+
+  #customers input {
+    width:150px;
+    height:30px;
+   
+  }
+  .submit {
+     position:relative;
+    top:300px;
+    left:415px;
+    color:white;
+    display:block;
+    width:100px;
+    height:28px;
+    text-align:center;
+    background-color:black;
+    cursor:pointer;
+  }
+
+  
+  .num {
+  	margin:40px 80px;
+  	height:22px;
+  	width:200px;
+  	padding:4px;
+  	border-radius:5px;
+  	 border:solid 1px black;
+  }
+
+  .btn-block {
+  	position:relative;
+  	left:30px;
+  	float:left;
+    display: block;
+    margin:0px 30px;
+    width:90px;
+    color: #fff;
+    font-size: 14px;
+    background-color: black;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+    border-radius:5px;
+}
+
+
+
+#mask { 
+     height:100%;
+     width:100%;
+      position: absolute; 
+     top: 0px; 
+     filter: alpha(opacity=50);
+      background-color: black; 
+      z-index: 999; 
+      left: 0px;
+       opacity: 0.5;
+        -moz-opacity: 0.5;
+        display:none;
+         z-index: 999;
+}  
+.number {  
+   border-radius:5px;
+    width:350px;
+    height:200px;
+    background-color:white;
+    position:fixed;
+    margin:auto auto;
+     _position:absolute; /* hack for IE6 */
+    top:50%;
+    left:55%;
+     margin: -170px 0 0 -235px;
+     display:none;
+     z-index: 1000; 
+  }
+.conmentbox {
+  display:none;
+}
+
+
+/*脚部*/   /*屏幕变小后位置移动了*/
+.footer {
+  height:100px;
+  background-color:black;
+}
+.footer-write {
+  width:800px;
+  margin:0px 300px;
+}
+.footer-write p {
+   color:white;
+   padding-top:10px;
+   text-align:center;
+   line-height:20px;
+   font-size:12px;
+}

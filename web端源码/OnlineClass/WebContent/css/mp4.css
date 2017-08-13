@@ -1,0 +1,245 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+    background-color:#fffef9;
+	font-family:STheiti, Verdana, 微软雅黑, 宋体, Geneva, sans-serif;
+}
+.container {
+	width:100%;
+	margin:0 auto;
+}
+
+/*栏 */
+.column {
+	background-color:black;
+	height:60px;
+}
+.column li{
+	height:60px;
+	color:white;
+    float:left;
+    list-style:none;
+     cursor:pointer;
+}
+/*不同的li内容*/
+li.back {
+	width:70px;
+	margin:20px 0px 0px 20px;
+}
+li.co a{
+	position:relative;
+	top:18px;
+   margin:0px 20px;
+}
+li.collect p{
+	position:relative;
+	top:18px;
+  margin:0px 20px;
+}
+
+/*用户退出*/
+li.exit,li.welcome{
+  color:white;
+  float:right;
+  padding-top:20px;
+  padding-right:10px;
+  font-size:13px;
+
+}
+
+.video-box {
+    background-color:black;
+	height:400px;
+    width:100%;
+}
+.video {
+    position:relative;
+    top:-1em;
+}
+
+.Middle {
+    width:100%;
+    height:800px;
+}
+.Middle-left {
+  float:left;
+  width:750px;
+}
+.Middle-right{
+  float:right;
+  width:200px;
+  height:550px;
+  margin:30px 90px 0px 10px;
+}
+
+
+
+/*节*/
+.Content {
+   width:650px;
+   margin:30px 0px 0px 50px;
+}
+.Content-box {
+	height:57px;
+	border-bottom:2px solid #CCCCCC;
+}
+.Content-box li{
+	float:left;
+	list-style:none;
+	height:100%;
+	height:57px;
+	font-size:13px;
+}
+.Content-box li p{
+	margin:15px 42px;
+}
+.Content-box li.cur,.Content-box li:hover {
+     border-bottom:2px solid #F44336;
+     color:#F44336;
+}		
+.nothing {
+	height:400px;
+	margin:10px 30px;
+	background-image:url(../image/nothing.jpg);
+	background-repeat:no-repeat;
+}
+
+.li02,.li03 {
+	display:none;
+}
+
+
+.writing {
+	height:100px;
+	width:650px;
+  background-color:#fffef9;
+}
+.course-btn {
+  text-align:center;
+	float:right;
+	  width:100px;
+    height: 25px;
+    display:block;
+    background-color:#6c4c49;
+    font-size:12px;
+    padding-top:5px;
+    color:white;
+    cursor:pointer;
+}
+.course-btn:hover {
+   background-color:#563624;
+}
+.qu-an {
+	position:relative;
+	top:100px;
+	margin:10px 0px;
+	height:110px;
+	width:650px;
+	border-bottom:1px solid gray;
+}
+.qu {
+    margin:10px 0px 0px 10px;
+	  height:70px;
+    font-size:14px;
+}
+.time {
+  margin:0px 0px 0px 10px;
+	float:left;
+  font-size:12px;
+}
+.answer {
+    height:25px;
+    width:100px;
+    background-color:#6c4c49;
+    margin:0px 10px 0px 0px;
+    color:white;
+	  float:right;
+    text-align:center;
+    vertical-align:center;
+    display:block;
+    font-size:12px;
+    padding-top:5px;
+    cursor:pointer;
+}
+.answer:hover {
+  background-color:#563624;
+}
+.tree {
+  margin:50px 0px 0px 20px;
+}
+.parent_li {
+   margin:20px 0px;
+   width:610px;
+   list-style:none;
+   font-size:13px;
+   cursor:pointer;
+}
+.son_li{ 
+  padding-left:5px;
+  padding-bottom:5px;
+  margin:10px 20px;
+   width:610px;
+  list-style:none;
+  display:none;
+  cursor:pointer;
+   font-size:13px;
+}
+li.son_li:hover{
+   background-color:#d9d6c3;
+}
+
+
+/*右边*/
+.Middle-right p{
+   font-size:14px;
+   font-weight:bold;
+}
+
+/*隐藏丑丑的下拉符号*/
+.select {
+  cursor:pointer;
+   float:left;
+   width:200px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #CCCCCC;
+   height: 35px;
+   -webkit-appearance: none; /*for chrome*/
+   background: url(../image/xia.png) no-repeat right ;
+  outline:none;
+}
+
+.sure {
+  padding-top:9px;
+  display:block;
+  height:30px;
+  width:200px;
+  background-color:red;
+  cursor:pointer;
+  text-align:center;
+  color:white;
+}
+.teacher-tip {
+  margin:22px 0px;
+  height:250px;
+ background-color:#d9d6c3;
+ border-radius:5px;
+}
+/*脚部*/   /*屏幕变小后位置移动了*/
+.footer {
+  height:100px;
+  background-color:black;
+}
+.footer-write {
+  width:650px;
+  margin:0px auto;
+}
+.footer-write p {
+   color:white;
+   padding-top:10px;
+   text-align:center;
+   line-height:20px;
+   font-size:12px;
+}

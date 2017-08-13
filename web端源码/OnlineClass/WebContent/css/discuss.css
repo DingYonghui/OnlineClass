@@ -1,0 +1,155 @@
+
+
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+    background-color:#fffef9;
+	font-family:STheiti, Verdana, 微软雅黑, 宋体, Geneva, sans-serif;
+}
+.container {
+	width:100%;
+	margin:0 auto;
+}
+
+/*栏 */
+.column {
+	background-color:black;
+	height:60px;
+}
+.column li{
+	height:60px;
+	color:white;
+    float:left;
+    list-style:none;
+     cursor:pointer;
+}
+/*不同的li内容*/
+li.back {
+	width:70px;
+	margin:20px 0px 0px 20px;
+}
+li.co a{
+	position:relative;
+	top:18px;
+   margin:0px 20px;
+}
+li.collect p{
+	position:relative;
+	top:18px;
+  margin:0px 20px;
+}
+
+/*用户退出*/
+li.exit,li.welcome{
+  color:white;
+  float:right;
+  padding-top:20px;
+  padding-right:10px;
+  font-size:13px;
+}
+
+.Middle{
+	width:100%;
+	height:800px;
+}
+.Middle-left {
+	float:left;
+}
+.Middle-right {
+	position:relative;
+	top:75px;
+	left:60px;
+	width:250px;
+	height:550px;
+	float:left;
+}
+
+.person li{
+	list-style:none;
+	float:left;
+   	padding:10px 20px 10px 10px;
+	margin:10px 10px 10px 10px;
+	cursor:pointer;
+}
+li.line {
+	border-right:1px solid #d9d6c3;
+}
+
+/*问答区*/
+.an-qu {
+	margin:50px 0px 0px 0px;
+	width:650px;
+	height:700px;
+}
+.an-qu span{
+	display:block;
+	width:500px;
+    margin:10px 0px 0px 10px;
+}
+
+/*问答区的按钮*/
+.an-qu input  {
+	border:none;
+	cursor:pointer;
+	float:right;
+	height:28px;
+	width:100px;
+	display:block;
+	text-align:center;
+	background-color:gray;
+	outline:none;
+    border-radius:4px;
+    margin:0px 0px 20px 0px;
+    color:white;
+}
+.an-qu input:hover {
+	background-color:#594c6d;
+}
+.answer {
+	height:80px;
+	width:640px;
+	display:none;
+	margin:10px 10px;
+}
+#submitResponse,#false {
+	margin-left:10px;
+	display:none;
+	margin:0px 0px 10px 10px;
+}
+input#return {
+	float:right;
+	margin:40px 0px;
+	height:28px;
+    width:100px;
+    background-color:red;
+    color:white;
+}
+
+/*相关问题*/
+
+.question {
+  margin:22px 0px;
+  height:250px;
+ background-color:#d9d6c3;
+ border-radius:5px;
+}
+
+
+/*脚部*/   /*屏幕变小后位置移动了*/
+.footer {
+  height:100px;
+  background-color:black;
+}
+.footer-write {
+  width:650px;
+  margin:0px auto;
+}
+.footer-write p {
+   color:white;
+   padding-top:10px;
+   text-align:center;
+   line-height:20px;
+   font-size:12px;
+}

@@ -1,0 +1,223 @@
+
+.message li{
+  color:white;
+  float:right;
+  list-style:none;
+  margin-top:28px;
+  margin-right:10px;
+  font-size:14px;
+  cursor:pointer;
+}
+.pic {
+  height:240px;
+  overflow:hidden;
+   background-image:url(../image/t-mystudent.jpg);
+}
+.pic-tip{
+    margin:0px 90px;
+    height:240px;
+}
+.pic-tip h2 {
+  font-size:32px;
+}
+/*
+路径
+*/
+.path  {
+  margin:10px 0px;
+}
+.path a {
+  color:black;
+  text-decoration:none;
+  font-size:14px;
+  font-weight:9px;
+}
+/*介绍*/
+.intro {
+  margin:80px 0px;
+  width:600px;
+}
+.Middle {
+  height:900px;
+  background-image:url(../image/course.jpg);
+
+}
+.build {
+  margin:0px auto;
+  height:900px;
+  width:650px;
+}
+.build h2{
+  font-weight:normal;
+}
+.course {
+   position:relative;
+   top:40px;
+   height:540px;
+}
+.content {
+   position:relative;
+   top:40px;
+   height:340px;
+}
+/*隐藏丑丑的下拉符号*/
+.select {
+   
+   width: 200px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #CCCCCC;
+   height: 30px;
+   -webkit-appearance: none; /*for chrome*/
+   background: url(../image/xia.png) no-repeat right ;
+  outline:none;
+}
+.input {
+  height:26px;
+}
+/*课程ID*/
+.span-select,.span-input {
+  position:absolute; 
+  margin:0px 34px;
+  border-radius: 4px;
+}
+.coursename input{
+  position:relative; 
+  margin:0px 15px;
+  width:199px;
+}
+/*删除*/
+.delete {
+  position:relative;
+  left:520px;
+  top:-20px;
+  height:27px;
+  width:80px;
+  display :block;
+  background-color:#CCCCCC;
+  text-align:center;
+  cursor:pointer;
+  font-size:15px;
+  padding:2px 0px 0px 0px;
+  border-radius:4px;
+}
+span.delete:hover {
+  background-color:#999999;
+}
+/*课程介绍*/
+.course-intro {
+  height:100px;
+  width:650px;
+}
+.text textarea {
+  height:100px;
+  width:500px;
+}
+.title,.text {
+  float:left;
+  height:100px;
+}
+.title {
+  width:100px;
+  line-height:top;
+}
+
+.Icon {
+  height:120px;
+  line-height:top;
+}
+/*选择文件按钮样式*/
+.selectIcon  {
+    margin:4px 0px;
+    padding: 4px 10px;
+    height: 20px;
+    line-height: 15px;
+    position: relative;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    text-decoration:none;
+}
+
+.selectIcon input {
+   height:28px;
+   width:160px;
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+.selectIcon :hover {
+    color: #444;
+    background: #eee;
+    border-color: #ccc;
+    text-decoration: none
+}
+#MyLIcon {
+  margin:0px 20px;
+  
+  position:absolute;
+  width:100px;
+  height:100px;
+}
+
+/*input按钮样式*/
+.btn input{
+  position:relative;
+  left:440px;
+  background-color:#CCCCCC;
+  border:none;
+  border-radius:4px;
+  height:27px;
+  width:80px;
+  cursor:pointer;
+  font-size:15px;
+  font-family:微软雅黑;
+}
+.btn input:hover {
+    background-color:#999999;
+}
+
+/*章节*/
+/*input按钮样式*/
+.btn-group input{
+  position:relative;
+  top:-20px;
+  left:400px;
+  background-color:#CCCCCC;
+  border:none;
+  border-radius:4px;
+  height:27px;
+  width:80px;
+  cursor:pointer;
+  font-size:15px;
+  font-family:微软雅黑;
+}
+.btn-group input:hover{
+ background-color:#999999;
+}
+/*脚部*/   /*屏幕变小后位置移动了*/
+.footer {
+  height:100px;
+  background-color:black;
+}
+.footer-write {
+  width:800px;
+  margin:0px 300px;
+}
+.footer-write p {
+   color:white;
+   padding-top:10px;
+   text-align:center;
+   line-height:20px;
+   font-size:12px;
+}

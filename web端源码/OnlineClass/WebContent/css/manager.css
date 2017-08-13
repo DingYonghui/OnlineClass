@@ -1,0 +1,76 @@
+* {
+	margin:0px;
+    padding:0px;
+}
+body {
+	height:200px;
+	width:100%;
+	background-image:url(../image/manager.jpg);
+}
+.content {
+	width:800px;
+	margin:50px 100px;
+}
+.manager-pen {
+	margin:0px 10px;
+}
+.exit img {
+	position:relative;
+	top:5px;
+}
+.exit{
+    font-weight:bold;
+	float:right;
+    color:black;
+	padding:5px;
+	cursor:pointer;
+	border-radius:5px;
+}
+.phonenumber {
+	width:300px;
+}
+.check{
+	width:200px;
+}
+.do {
+	width:350px;
+}
+th{
+	height:30px;
+}
+table tr:hover {
+    background-color:#d3d7d4;
+}
+td {
+ 	height:40px;
+ 	text-align:center;
+ 	border-top:1px solid gray;
+ }
+ a{
+ 	text-decoration:none;
+ 	color:white;
+ 	font-size:14px;
+ }
+span._pass {
+	width:80px;
+	height:20px;
+   	display:block;
+   	background-color:red;
+    float:left;
+    margin:0px 32px;
+    text-align:center;
+   border:1px solid red;
+   cursor:pointer;
+}
+span._delete  {
+	width:120px;
+	height:20px;
+   	display:block;
+    float:left;
+    margin:0px 32px;
+    text-align:center;
+   border:1px solid #74787c;
+   	background-color:#74787c;
+   cursor:pointer;
+
+}

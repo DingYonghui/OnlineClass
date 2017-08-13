@@ -1,0 +1,169 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jack.myapplication.activity.user.RegisterActivity">
+
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="40dp">
+
+        <Button
+            android:id="@+id/btn_return_to_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/middle_gray_bg_selector"
+            android:drawableLeft="@mipmap/arrow_left"
+            android:paddingLeft="10dp"
+            android:text="返回"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/et_phone_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/et_stroke_and_conners_bg"
+            android:hint="手机号"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textSize="13sp" />
+
+
+        <!--<LinearLayout-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<EditText-->
+        <!--android:id="@+id/et_text_message"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="3"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="短信动态码"-->
+        <!--android:inputType="text" />-->
+        <!--<Button-->
+        <!--android:id="@+id/btn_obtain_TestGetCode"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="获取验证码"-->
+        <!--android:textSize="10sp"-->
+        <!--/>-->
+
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/et_set_a_password"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="@drawable/et_stroke_and_conners_bg"
+                android:hint="设置密码"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:textSize="13sp" />
+
+            <CheckBox
+                android:id="@+id/cb_password_can_be_see"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="可见"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_resure_a_password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/et_stroke_and_conners_bg"
+            android:hint="确认密码"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textSize="13sp" />
+
+        <Spinner
+            android:id="@+id/spinner_department"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/et_stroke_and_conners_bg"
+            android:entries="@array/department_category_title"
+            android:paddingLeft="10dp"
+            android:textSize="13sp"></Spinner>
+
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/et_email_address"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/et_stroke_and_conners_bg"
+            android:hint="邮箱地址，便于找回密码"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red_bg_selector"
+            android:gravity="center"
+            android:text="注册"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/tv_have_accounts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/middle_gray_bg_selector"
+            android:gravity="center"
+            android:text="已有账号,现在登录"
+            android:textColor="@color/green" />
+
+    </LinearLayout>
+
+</LinearLayout>

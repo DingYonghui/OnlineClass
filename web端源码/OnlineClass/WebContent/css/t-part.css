@@ -1,0 +1,72 @@
+
+/*导航栏下*/
+.pic {
+	background-image:url(../image/48.jpg);
+	height:240px;
+	overflow:hidden;
+}
+.pic-tip{
+    margin:0px 90px;
+    height:240px;
+}
+.pic-tip h2 {
+	font-size:32px;
+}
+/*
+路径
+*/
+.path  {
+	margin:10px 0px;
+}
+.path a {
+	color:black;
+	text-decoration:none;
+	font-size:14px;
+	font-weight:9px;
+}
+
+/*
+节的内容上传
+*/
+.content {
+   width:800px;
+   margin:90px;
+}
+.resource {
+	height:57px;
+	border-bottom:2px solid #CCCCCC;
+}
+.resource li{
+	float:left;
+	list-style:none;
+	height:100%;
+	height:57px;
+	font-size:16px;
+}
+.resource li p{
+	margin:15px 42px;
+}
+.resource li.cur,.resource li:hover {
+     border-bottom:2px solid #F44336;
+     color:#F44336;
+}		
+
+/* 内容*/
+.upload {
+	height:50px;
+}
+.upload img {
+	float:right;
+	margin:10px;
+	cursor:pointer;
+}
+.nothing {
+	height:400px;
+	margin:10px 30px;
+	background-image:url(../image/nothing.jpg);
+	background-repeat:no-repeat;
+}
+
+.li02,.li03 {
+	display:none;
+}

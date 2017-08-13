@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--button_defocused.xml //实现渐变色的效果 （焦点不在button上，且未按下）-->
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- 颜色渐变效果 -->
+        <gradient
+            android:startColor="#00FF00"
+            android:endColor="#C0C0C0"
+            android:paddingTop="5dp"
+            android:angle="0" />
+        <!-- 按钮四个角的平滑度 -->
+        <corners android:radius="15dp" />
+    </shape>
+

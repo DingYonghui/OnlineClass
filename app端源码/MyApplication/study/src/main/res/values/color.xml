@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="normal_orange_color">#FF6633</color>
+    <color name="normal_bg_color">#E0DFE0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lessons_list_item_color">#C3C6C5</color>
+    <color name="top_title_color">#0fffc4</color>
+
+    <color name="green">#41CA3F</color>
+    <color name="little_green">#41CA3F</color>
+    <color name="light_gray">#20cebce9</color>
+    <color name="gray">#BBBBBB</color>
+
+</resources>

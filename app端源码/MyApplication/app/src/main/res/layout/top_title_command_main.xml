@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+                        主界面几个Fragment的头部信息
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_gray"
+    android:layout_height="50dp">
+<TextView
+    android:id="@+id/tvMainTopTitle"
+    android:padding="5dp"
+    android:textSize="23sp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="48dp" />
+    <View
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+</LinearLayout>

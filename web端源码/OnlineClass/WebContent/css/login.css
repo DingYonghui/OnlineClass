@@ -1,0 +1,87 @@
+﻿* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	background-color:#CCCC99;
+	font-family:STheiti, Verdana, 微软雅黑, 宋体, Geneva, sans-serif;
+}
+.mark {
+	height:350px;
+	width:480px;
+	background-color:white;
+	border-radius:10px;
+	 position:fixed;
+	 _position:absolute; /* hack for IE6 */
+      top: 50%;
+      left: 50%;
+   margin: -170px 0 0 -235px; 
+
+   filter: alpha(opacity=50);
+	 opacity: 0.5; 
+	 -moz-opacity: 0.5; 
+}
+.block {
+	height:300px;
+	width:480px;
+	 position:fixed;
+	  _position:absolute; /* hack for IE6 */
+      top: 50%;
+      left: 50%;
+	   margin: -170px 0 0 -235px;   
+	
+}
+.list li {
+	background-color:green;
+	border-radius:15px;
+	float:left;
+	list-style:none;
+	margin:13px 50px;
+    padding:2px 30px;
+}
+a {
+	text-decoration:none;
+	color:black;
+	color:white;
+}
+#tabs-1,#tabs-2 {
+	clear:left;
+	margin:0px 0px 0px 20px;
+	width:460px;
+
+}
+#tabs-1 {
+	height:350px;
+	display:block;
+}
+#tabs-2 {
+	height:400px;
+	display:none;
+}
+input {
+	line-height:25px;
+
+}
+p {
+ font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+}
+.get-code-btn {
+	cursor: pointer;
+    background: #fff;
+    border: 1px solid #c9c9c9;
+    font-size: 13px;
+    margin:0px 10px;
+    padding: 6px 12px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    vertical-align: middle;
+}
+.block p {
+	margin:0px 65px;
+}
+.labelError {
+	
+}

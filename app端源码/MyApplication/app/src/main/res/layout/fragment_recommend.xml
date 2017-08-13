@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+                               推荐fragment
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/top_title_color_2"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/normal_space"
+            android:text="首页"
+            android:textSize="@dimen/title_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refreshRecommend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <GridView
+                android:layout_marginTop="10dp"
+                android:numColumns="4"
+                android:gravity="center"
+                android:id="@+id/gvRecommend"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+            <View
+                android:background="@color/gray"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+            <ListView
+                android:layout_marginTop="5dp"
+                android:id="@+id/lvRecommond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </ListView>
+        </LinearLayout>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jack.myapplication" >
+
+    <!-- android:name=".utils.CrashApplication" -->
+
+
+    <!-- 访问网络的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 往SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 读取SDCard数据权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+        <activity
+            android:name=".activity.WelcomeStartActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.WelcomeGuideActivity"
+            android:label="@string/title_activity_welcome_guide" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/title_activity_main" />
+        <activity
+            android:name=".activity.user.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".activity.user.RegisterActivity"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name=".activity.Lesson.LessonSectionActivity"
+            android:label="@string/title_activity_lesson_section" />
+        <activity
+            android:name=".activity.Lesson.LessonPartActivity"
+            android:label="@string/title_activity_lesson_part" />
+        <activity
+            android:name=".activity.mainIndexMy.MyUserInformationActivity"
+            android:label="@string/title_activity_my_user_information" />
+        <activity
+            android:name=".activity.mainIndexMy.MyStudyRecordActivity"
+            android:label="@string/title_activity_my_study_record" />
+        <activity
+            android:name=".activity.mainIndexMy.MyLessonsCollectionActivity"
+            android:label="@string/title_activity_my_lessons_collection" />
+        <activity
+            android:name=".activity.mainIndexMy.MyDownloadActivity"
+            android:label="@string/title_activity_my_download" />
+        <activity
+            android:name=".activity.mainIndexMy.MySettingCenterActivity"
+            android:label="@string/title_activity_my_setting_center" />
+        <activity
+            android:name=".activity.mainIndexMy.MyAboutUsActivity"
+            android:label="@string/title_activity_my_about_us" />
+        <activity android:name="schoolstudy.view.activity.NewsActivity" />
+        <activity android:name="schoolstudy.view.activity.VideoPlayActivity" />
+        <activity android:name="schoolstudy.view.activity.CourseActivity" />
+        <activity android:name="schoolstudy.view.activity.LoginActivity" />
+        <activity android:name="schoolstudy.view.activity.RegisterActivity" />
+    </application>
+
+</manifest>

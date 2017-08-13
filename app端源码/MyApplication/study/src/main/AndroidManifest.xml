@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ding.study" >
+
+    <!-- 访问网络的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name=".WelcomeStartActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".WelcomeGuideActivity"
+            android:label="@string/title_activity_welcome_guide" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".MyUserInformationActivity"
+            android:label="@string/title_activity_user_information" >
+        </activity>
+        <activity
+            android:name=".MyStudyRecordActivity"
+            android:label="@string/title_activity_my_study_record" >
+        </activity>
+        <activity
+            android:name=".MyLessonsCollectionActivity"
+            android:label="@string/title_activity_my_lessons_collection" >
+        </activity>
+        <activity
+            android:name=".MyDownloadActivity"
+            android:label="@string/title_activity_my_download" >
+        </activity>
+        <activity
+            android:name=".MySettingCenterActivity"
+            android:label="@string/title_activity_my_setting_center" >
+        </activity>
+        <activity
+            android:name=".MyAboutUsActivity"
+            android:label="@string/title_activity_my_about_us" >
+        </activity>
+        <activity
+            android:name=".LessonSectionActivity"
+            android:label="@string/title_activity_lesson_section" >
+        </activity>
+        <activity
+            android:name=".LessonPartActivity"
+            android:label="@string/title_activity_lesson_part" >
+        </activity>
+    </application>
+
+</manifest>

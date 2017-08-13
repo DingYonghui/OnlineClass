@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <!-- 颜色渐变效果 -->
+        <gradient
+            android:startColor="#505050"
+            android:endColor="#C0C0C0"
+            android:paddingTop="5dp"
+            android:angle="0" />
+
+        <!-- 按钮四个角的平滑度 -->
+        <corners android:radius="15dp" />
+
+        <!-- 焦点在按钮上时光环的宽度与颜色 -->
+        <stroke android:width="4dp" android:color="#FFFF9200" />
+
+    </shape>
+

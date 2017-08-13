@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name>ClassOnline</display-name>
+<!-- 	<servlet>
+		<description>JAX-RS Tools Generated - Do not modify</description>
+		<servlet-name>JAX-RS Servlet</servlet-name>
+		<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet> -->
+	<servlet>
+		<servlet-name>RegistAndLogin</servlet-name>
+		<servlet-class>com.mori.servlet.RegistAndLogin</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LessonControl</servlet-name>
+		<servlet-class>com.mori.servlet.LessonControl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>StudentControl</servlet-name>
+		<servlet-class>com.mori.servlet.StudentControl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AndroidLoadLesson</servlet-name>
+		<servlet-class>com.mori.android.servlet.AndroidLoadLesson</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>TeacherControl</servlet-name>
+		<servlet-class>com.mori.servlet.TeacherControl</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PartExchangeControl</servlet-name>
+		<servlet-class>com.mori.servlet.PartExchangeControl</servlet-class>
+	</servlet>
+
+
+
+	<!-- <servlet-mapping>
+		<servlet-name>JAX-RS Servlet</servlet-name>
+		<url-pattern>/jaxrs/*</url-pattern>
+	</servlet-mapping> -->
+	<servlet-mapping>
+		<servlet-name>RegistAndLogin</servlet-name>
+		<url-pattern>/RegistAndLogin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LessonControl</servlet-name>
+		<url-pattern>/LessonControl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StudentControl</servlet-name>
+		<url-pattern>/StudentControl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AndroidLoadLesson</servlet-name>
+		<url-pattern>/AndroidLoadLesson</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TeacherControl</servlet-name>
+		<url-pattern>/TeacherControl</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PartExchangeControl</servlet-name>
+		<url-pattern>/PartExchangeControl</url-pattern>
+	</servlet-mapping>
+
+	<filter>
+		<filter-name>TeacherFilter</filter-name>
+		<filter-class>com.mori.filter.TeacherFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>TeacherFilter</filter-name>
+		<url-pattern>/teacher/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+		<dispatcher>INCLUDE</dispatcher>
+	</filter-mapping>
+
+
+	<filter-mapping>
+		<filter-name>TeacherFilter</filter-name>
+		<url-pattern>/TeacherControl</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+		<dispatcher>INCLUDE</dispatcher>
+	</filter-mapping>
+
+
+	<filter>
+		<filter-name>StudentFilter</filter-name>
+		<filter-class>com.mori.filter.StudentFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>StudentFilter</filter-name>
+		<url-pattern>/LessonControl</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+		<dispatcher>INCLUDE</dispatcher>
+	</filter-mapping>
+
+
+
+	<!-- 观印 -->
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GetLesson</servlet-name>
+		<servlet-class>com.blackdog.android.servlet.GetLesson</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GetSectionAndPart</servlet-name>
+		<servlet-class>com.blackdog.android.servlet.GetSectionAndPart</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>GetPartExchange</servlet-name>
+		<servlet-class>com.blackdog.android.servlet.GetPartExchange</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>DoPartExchange</servlet-name>
+		<servlet-class>com.blackdog.android.servlet.DoPartExchange</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>GetLesson</servlet-name>
+		<url-pattern>/getLesson</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetSectionAndPart</servlet-name>
+		<url-pattern>/getSectionAndPart</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetPartExchange</servlet-name>
+		<url-pattern>/getPartExchange</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DoPartExchange</servlet-name>
+		<url-pattern>/doPartExchange</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+	<!-- 辉 -->
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LessonServlet</servlet-name>
+		<servlet-class>com.ding.android.servlet.LessonServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.ding.android.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>com.ding.android.servlet.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>com.ding.android.servlet.UserServlet</servlet-class>
+	</servlet>
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>LessonServlet</servlet-name>
+		<url-pattern>/LessonServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/RegisterServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/UserServlet</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+</web-app>

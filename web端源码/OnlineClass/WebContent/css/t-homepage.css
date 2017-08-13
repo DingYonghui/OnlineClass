@@ -1,0 +1,186 @@
+/*
+登录注册按钮
+*/
+.login-regist {
+  float:right;
+}
+.list li{
+  float:right;
+  list-style:none;
+  padding:20px 20px;
+  color:white;
+  font-size:14px;
+  cursor:pointer;
+}
+.list li:hover {
+   background-color:red;
+}
+/*大图内容*/
+.pic {
+	height:800px;
+	background-image:url(../image/homepage.jpg);
+}
+.title-mid {
+    position:relative;
+    top:180px;
+    margin:0 auto;
+    height:300px;
+    width:600px;
+}
+h1.title { 
+  color:white;
+  font-size:65px;
+  padding:5px 5px;
+  width:556px;
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+}
+p.s-title {
+  width:200px;
+  position:relative;
+  top:30px;
+  margin:0 auto;
+  font-size:30px;
+  color:white;
+}
+.begin {
+  cursor:pointer;
+  position:relative;
+  top:100px;
+  text-align:center;
+  height:40px;
+  width:200px;
+  margin:0 auto;
+  border:2px solid black;
+}
+
+/*大图下两图标*/
+.icon-group {
+  position:relative;
+  height:350px;
+  margin:0px 315px;
+}
+.icon {
+  float:left;
+  position:relative;
+  top:90px;
+  width:135px;
+  height:200px;
+}
+.right {
+  margin :0px 0px 0px 410px;
+}
+.icon p {
+  width:80px;
+  font-size:20px;
+  color:gray;
+  margin:0px auto;
+}
+.icon p:hover{
+  color:red;
+}
+
+
+/*脚部*/   /*屏幕变小后位置移动了*/
+.footer {
+  height:100px;
+  background-color:black;
+}
+.footer-write {
+  width:800px;
+  margin:0px 300px;
+}
+.footer-write p {
+   color:white;
+   padding-top:10px;
+   text-align:center;
+   line-height:20px;
+   font-size:12px;
+}
+
+/*注册登录界面*/
+.login-regist-area {
+  height:660px;
+  display:none;
+  background-image:url(../image/login-regist.jpg);
+}
+.black {
+  height:60px;
+  background-color:black;
+}
+
+.tabs-1 {
+  color:white;
+  margin:40px auto;
+  width:450px;
+  height:400px;
+}
+.tabs-2 {
+  color:white;
+  margin:40px auto;
+  width:400px;
+  height:400px;
+  display:none;
+  font-style:normal;
+}
+.tabs-1 input,.tabs-2 input {
+  margin:15px 0px;
+  padding:8px;
+  width:200px;
+  border-radius:7px;
+  border:solid 1px black;
+  background:transparent; /*背景透明*/
+  outline:none;
+}
+.tabs-1 select,.tabs-2 select {
+  margin:15px 0px;
+  height:30px;
+  width:225px;
+  border-radius:7px;
+}
+#submit {
+  display: block;
+  height:30px;
+  width:225px;
+  background-color:black;
+  text-align:center;
+  padding-top:5px;
+  border-radius:7px;
+  cursor:pointer;
+}
+
+.back2{
+   position:relative;
+  top:25px;
+  cursor:pointer;
+  color:black;
+  width:60px;
+}
+.back2 img{
+  position:relative;
+  top:4px;
+  right:6px;
+}
+div.back2:hover{
+  color:white;
+} 
+/*引导登录注册*/
+.change-re,.change-lo {
+  position:relative;
+  top:-30px;
+  left:260px;
+  cursor:pointer;
+  color:black;
+}
+.change-re img ,.change-lo img{
+   position:relative;
+   top:5px;
+}
+span.change-re:hover,span.change-lo:hover {
+  color:white;
+}
+
+/*获取验证码*/
+input#get-code {
+  width:130px;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="normal_orange_color">#FF6633</color>
+    <color name="normal_bg_color">#E0DFE0</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="lessons_list_item_color">#C3C6C5</color>
+
+    <color name="blue">#5557ec</color>
+
+    <color name="red">#f7ec1f30</color>
+    <color name="little_red">#f7f74755</color>
+
+    <color name="green">#41CA3F</color>
+    <color name="little_green">#49dc46</color>
+
+    <color name="little_light_gray">#20f5f1fa</color>
+    <color name="light_gray">#20cebce9</color>
+    <color name="middle_gray">#20a97aef</color>
+    <color name="top_title_gray">#20dbdbdf</color>
+    <color name="gray">#BBBBBB</color>
+
+    <color name="green_department_title">#6dff2d</color>
+    <color name="green_department_title_normal">#E0DFE0</color>
+
+    <color name="top_title_color">#0fffc4</color>
+    <color name="top_title_color_2">#f7ec1f30</color>
+
+    <color name="TabPageBackgroundColor">#FFFFFF</color>
+
+    <color name="main_index_bottom">#575454</color>
+
+</resources>

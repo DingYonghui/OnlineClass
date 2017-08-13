@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:background="@android:color/white" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- title -->
+
+
+
+    -<RelativeLayout android:background="@drawable/title_bg" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_alignParentTop="true" android:id="@+id/page_title_bar_id">
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/page_image_back_id" android:src="@drawable/backbutton" android:paddingLeft="5dip" android:layout_alignParentLeft="true"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/page_title_name_id" android:textSize="20.0sp" android:textColor="#ffffffff" android:text="登录" android:shadowRadius="1.0" android:shadowDy="1.0" android:shadowDx="1.0" android:layout_centerInParent="true"/>
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/page_image_exit_id" android:src="@drawable/add" android:layout_marginLeft="5dip" android:layout_alignParentRight="true"/>
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/page_image_phone_id" android:src="@drawable/exit" android:layout_marginLeft="20dp" android:layout_toRightOf="@+id/page_title_name_id" android:layout_centerVertical="true"/>
+
+</RelativeLayout>
+
+    <!-- body -->
+
+
+
+    -<ScrollView android:layout_height="wrap_content" android:layout_width="fill_parent" android:fadingEdge="none" android:layout_below="@+id/page_title_bar_id">
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="40.0dip" android:orientation="vertical" android:gravity="center_vertical">
+
+
+    -<RelativeLayout android:background="@drawable/more_item_press" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/member_title_id" android:layout_marginLeft="2.0dip" android:paddingTop="8.0dip" android:paddingBottom="16.0dip" android:layout_marginRight="2.0dip">
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/image_user_id" android:src="@drawable/ic_launcher" android:layout_marginLeft="15dp" android:layout_marginRight="10dp" android:layout_marginTop="10dp"/>
+
+
+    -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_toRightOf="@+id/image_user_id" android:orientation="vertical">
+
+
+    -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="14dp" android:textColor="@android:color/black" android:text="用户姓名:" android:layout_marginLeft="10dp" android:layout_marginTop="10dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/text_username_id" android:paddingLeft="10dp" android:text="44444444444" android:layout_marginTop="10dp"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="12dp" android:textColor="@android:color/black" android:text="联系电话：" android:layout_marginLeft="10dp" android:layout_marginTop="10dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/text_userphone_id" android:paddingLeft="10dp" android:text="11111111111" android:layout_marginTop="10dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>
+
+
+    -<RelativeLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/member_body_id" android:layout_below="@+id/member_title_id" android:layout_marginTop="10dp">
+
+
+    -<LinearLayout android:background="@drawable/more_item_press" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="vertical">
+
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="15dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textview_1a_id" android:textColor="@android:color/black" android:text="积分："/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textview_2a_id" android:textColor="#FF0000" android:text="000000000" android:layout_marginLeft="5dp" android:layout_toRightOf="@+id/textview_1a_id"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@android:color/black" android:text="分" android:layout_marginLeft="5dp" android:layout_toRightOf="@+id/textview_2a_id"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/text_about_id" android:textColor="@android:color/black" android:text="积分说明" android:layout_marginRight="5dp" android:layout_toLeftOf="@+id/iamge_click_id"/>
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/iamge_click_id" android:src="@drawable/ic_right" android:layout_alignParentRight="true" android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>
+
+    <LinearLayout android:background="#EEEEE0" android:layout_height="1dip" android:layout_width="fill_parent" android:id="@+id/linearLayout_1b" android:layout_marginTop="10dip" android:layout_marginBottom="10dip"> </LinearLayout>
+
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textview_3a_id" android:textColor="@android:color/black" android:text="身份证号："/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textview_4a_id" android:textColor="@android:color/black" android:text="11111111111111111x" android:layout_marginLeft="5dp" android:layout_toRightOf="@+id/textview_3a_id"/>
+
+</RelativeLayout>
+
+    <LinearLayout android:background="#EEEEE0" android:layout_height="1dip" android:layout_width="fill_parent" android:id="@+id/linearLayout_2b" android:layout_marginTop="10dip" android:layout_marginBottom="10dip"/>
+
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textview_5a_id" android:textColor="@android:color/black" android:text="邮箱："/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textview_6a_id" android:textColor="@android:color/black" android:text="11111111111@163.com" android:layout_marginLeft="10dp" android:layout_toRightOf="@+id/textview_5a_id"/>
+
+</RelativeLayout>
+
+    <LinearLayout android:background="#EEEEE0" android:layout_height="1dip" android:layout_width="fill_parent" android:layout_marginTop="10dip" android:layout_marginBottom="10dip"/>
+
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textview_7a_id" android:textColor="@android:color/black" android:text="职业："/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textview_8a_id" android:textColor="@android:color/black" android:text="制片" android:layout_marginLeft="15dp" android:layout_toRightOf="@+id/textview_7a_id"/>
+
+</RelativeLayout>
+
+    <LinearLayout android:background="#EEEEE0" android:layout_height="1dip" android:layout_width="fill_parent" android:layout_marginTop="10dip" android:layout_marginBottom="10dip"/>
+
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dip" android:layout_marginBottom="15dip">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textview_9a_id" android:textColor="@android:color/black" android:text="家庭住址："/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textview_10a_id" android:textColor="@android:color/black" android:text="北京市天安门附近中南海" android:layout_marginLeft="1dp" android:layout_toRightOf="@+id/textview_9a_id"/>
+
+</RelativeLayout>
+
+    <!-- <LinearLayout android:layout_width="fill_parent" android:layout_height="1dip" android:layout_marginBottom="10dip" android:layout_marginTop="10dip" android:background="#EEEEE0" /> -->
+
+
+</LinearLayout>
+
+</RelativeLayout>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/text_hint_id" android:textColor="@android:color/black" android:text="更多信息下拉后显示" android:gravity="center_horizontal" android:layout_marginTop="5dip" android:layout_marginBottom="25dip"/>
+
+</LinearLayout>
+
+</ScrollView>
+
+
+    -<RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/relativeLayout_login_id" android:layout_alignParentLeft="true" android:orientation="horizontal" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true">
+
+    <Button android:background="@drawable/more_item_press" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/login_edit_btn_id" android:textSize="14dip" android:textColor="#333333" android:text="编辑个人信息" android:layout_marginLeft="20dip" android:gravity="center" android:layout_marginRight="20dip"/>
+
+</RelativeLayout>
+
+</RelativeLayout>

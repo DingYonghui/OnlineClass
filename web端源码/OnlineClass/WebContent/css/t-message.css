@@ -1,0 +1,110 @@
+
+.message li{
+  color:white;
+  float:right;
+  list-style:none;
+  margin-top:28px;
+  margin-right:10px;
+  font-size:14px;
+  cursor:pointer;
+}
+.pic {
+  height:240px;
+  overflow:hidden;
+   background-image:url(../image/t-part.jpg);
+}
+.pic-tip{
+    margin:0px 90px;
+    height:240px;
+}
+.pic-tip h2 {
+  color:white;
+  font-size:32px;
+}
+/*
+路径
+*/
+.path  {
+  margin:10px 0px;
+}
+.path a {
+  color:#d3d7d4;
+  text-decoration:none;
+  font-size:14px;
+  font-weight:9px;
+}
+/*介绍*/
+.intro {
+  color:#d3d7d4;
+  margin:80px 0px;
+  width:600px;
+}
+.Middle {
+  height:600px;
+}
+.aa {
+    width:180px;
+    height:25px;
+    padding:2px;
+}
+
+input {
+
+  line-height:25px;
+
+}
+h4 {
+  margin:40px 0px 0px 100px;
+}
+
+.messagebox p {
+    height:30px;
+}
+.messagebox {
+  width:300px;
+  margin:0px 200px;
+}
+.btn-block {
+    display: block;
+    width:auto;
+    color: #fff;
+    font-size: 14px;
+    background-color: #39b94e;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/*隐藏丑丑的下拉符号*/
+.select {
+   width: 260px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #CCCCCC;
+   height: 34px;
+   -webkit-appearance: none; /*for chrome*/
+    background: url(../image/xia.png) no-repeat right ;
+  outline:none;
+}
+.input {
+  height:26px;
+}
+
+
+/*脚部*/   /*屏幕变小后位置移动了*/
+.footer {
+  height:100px;
+  background-color:black;
+}
+.footer-write {
+  width:650px;
+  margin:0px 300px;
+}
+.footer-write p {
+   color:white;
+   padding-top:10px;
+   text-align:center;
+   line-height:20px;
+   font-size:12px;
+}
